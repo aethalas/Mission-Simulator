@@ -1,0 +1,22 @@
+﻿Build started 3/9/2017 3:43:23 PM.
+     1>Project "G:\[YEAR 2] GAMES ARCHITECTURE AND DEVELOPMENT\ASSIGNMENT\MissionSimulator\MissionSimulator\MissionSimulator.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\[YEAR 2] GAMES ARCHITECTURE AND DEVELOPMENT\ASSIGNMENT\MissionSimulator\Release\MissionSimulator.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\[YEAR 2] GAMES ARCHITECTURE AND DEVELOPMENT\ASSIGNMENT\MissionSimulator\Release\MissionSimulator.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\[YEAR 2] GAMES ARCHITECTURE AND DEVELOPMENT\ASSIGNMENT\MissionSimulator\Release\MissionSimulator.lib" /MACHINE:X86 /SAFESEH Release\Source.obj
+         Release\sqlite3.obj
+         Generating code
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(57124): error C4703: potentially uninitialized local pointer variable 'pDbPage' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(57057): error C4703: potentially uninitialized local pointer variable 'pDbPage' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(56103): error C4703: potentially uninitialized local pointer variable 'pDbPage' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(49290): error C4703: potentially uninitialized local pointer variable 'pPage' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(49457): error C4703: potentially uninitialized local pointer variable 'pPgHdr' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(50328): error C4703: potentially uninitialized local pointer variable 'pPgHdr' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(59734): error C4703: potentially uninitialized local pointer variable 'pDbPage' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(64044): error C4703: potentially uninitialized local pointer variable 'pOvflPage' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(65222): error C4703: potentially uninitialized local pointer variable 'pSrcPg' used
+     1>g:\[year 2] games architecture and development\assignment\missionsimulator\missionsimulator\sqlite3.c(65322): error C4703: potentially uninitialized local pointer variable 'pPg' used
+     1>LINK : fatal error LNK1257: code generation failed
+     1>Done Building Project "G:\[YEAR 2] GAMES ARCHITECTURE AND DEVELOPMENT\ASSIGNMENT\MissionSimulator\MissionSimulator\MissionSimulator.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.29
